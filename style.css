@@ -1778,8 +1778,8 @@ body {
 .bubble:nth-child(17) {
   top: 37%;
   left: 65%;
-  height: 11vmin;
-  width: 11vmin;
+  height: 5vmin;
+  width: 5vmin;
   -webkit-animation: love-burst 3s infinite 2.4s;
   animation: love-burst 3s infinite 2.4s;
   box-shadow: inset 0 0 0 5.5vmin transparent;
@@ -1817,8 +1817,8 @@ body {
 .bubble:nth-child(20) {
   top: 39%;
   left: 24%;
-  height: 19vmin;
-  width: 19vmin;
+  height: 5vmin;
+  width: 5vmin;
   -webkit-animation: love-burst 3s infinite 2.85s;
   animation: love-burst 3s infinite 2.85s;
   box-shadow: inset 0 0 0 9.5vmin transparent;
@@ -1880,8 +1880,8 @@ body {
   transform: scale(0.5) rotate(-29deg);
 }
 .bubble:nth-child(6) .heart {
-  -webkit-animation: love 3s forwards infinite 0.75s;
-  animation: love 3s forwards infinite 0.75s;
+  -webkit-animation: love2 3s forwards infinite 0.75s;
+  animation: love2 3s forwards infinite 0.75s;
   -webkit-transform: scale(0.5) rotate(35deg);
   transform: scale(0.5) rotate(35deg);
 }
@@ -1898,8 +1898,8 @@ body {
   transform: scale(0.5) rotate(40deg);
 }
 .bubble:nth-child(9) .heart {
-  -webkit-animation: love 3s forwards infinite 1.2s;
-  animation: love 3s forwards infinite 1.2s;
+  -webkit-animation: love2 3s forwards infinite 1.2s;
+  animation: love2 3s forwards infinite 1.2s;
   -webkit-transform: scale(0.5) rotate(-35deg);
   transform: scale(0.5) rotate(-35deg);
 }
@@ -1922,8 +1922,8 @@ body {
   transform: scale(0.5) rotate(48deg);
 }
 .bubble:nth-child(13) .heart {
-  -webkit-animation: love 3s forwards infinite 1.8s;
-  animation: love 3s forwards infinite 1.8s;
+  -webkit-animation: love2 3s forwards infinite 1.8s;
+  animation: love2 3s forwards infinite 1.8s;
   -webkit-transform: scale(0.5) rotate(-33deg);
   transform: scale(0.5) rotate(-33deg);
 }
@@ -1952,8 +1952,8 @@ body {
   transform: scale(0.5) rotate(-29deg);
 }
 .bubble:nth-child(18) .heart {
-  -webkit-animation: love 3s forwards infinite 2.55s;
-  animation: love 3s forwards infinite 2.55s;
+  -webkit-animation: love2 3s forwards infinite 2.55s;
+  animation: love2 3s forwards infinite 2.55s;
   -webkit-transform: scale(0.5) rotate(14deg);
   transform: scale(0.5) rotate(14deg);
 }
@@ -1980,6 +1980,20 @@ body {
 @keyframes love {
   50% {
     fill: rgb(253, 93, 19);
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes love2 {
+  50% {
+    fill: rgb(91, 213, 241);
+    opacity: 1;
+  }
+}
+
+@keyframes love2 {
+  50% {
+    fill: rgb(91, 213, 241);
     opacity: 1;
   }
 }
